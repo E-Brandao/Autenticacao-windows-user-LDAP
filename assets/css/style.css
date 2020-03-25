@@ -1,0 +1,132 @@
+/* 01)RESET */
+
+  html, body{
+    font-family: 'Raleway', sans-serif;
+
+  }
+  .bg_primary{
+  	background-color: #1d4d63;
+  }
+
+
+/* 02)ANIMATIONS */
+
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+
+/* 03)UTILITIES */
+
+  .hidden{
+    display: none;
+  }
+
+  .error{
+    color: #FD1616;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .alert{
+    margin: auto;
+    margin-top: 15px;
+    width: 85%; 
+  }
+
+
+/* 04)BUTTON */
+
+  .login_btn{
+  	color: black;
+  	background-color:  #5cb85c;
+  	width: 100px;
+  }
+
+  .login_btn:hover{
+  	background-color: #DBA901;
+  	color: white;
+  }
+
+
+/* 05)Card Login */
+
+  .card{
+  	min-height: 290px;
+  	margin-top: auto;
+  	margin-bottom: auto;
+  	width: 400px;
+  	background-color: rgba(0,0,0,0.5) !important;
+  }
+
+  .card-header h3{
+  	color: white;
+  	display: inline;
+  	margin-left: 5px;
+  	text-align: center;
+  }
+
+
+/* 06)Content alignment */
+
+  .basic-content{
+    padding-top: 7px;
+    margin-top: 90px;
+  }
+
+
+/* 7)Logo */
+
+  img{
+    display: inline;
+  }
+
+  #icone{
+    max-height: 50px;
+    max-width: 60px;
+  }
+
+
+/* 8)Forms */
+
+  .form-group{
+  	margin-top: 15px;
+  }
+
+  input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+  }
